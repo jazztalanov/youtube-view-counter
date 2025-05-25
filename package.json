@@ -1,0 +1,15 @@
+{
+  "name": "youtube-view-counter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "npx puppeteer install"
+  },
+  "dependencies": {
+    "axios": "^1.3.0",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "puppeteer": "^21.0.0"
+  }
+}
